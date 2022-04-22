@@ -1,0 +1,38 @@
+[
+	{
+		"emp_id" : 1,
+		"emp_Name" : "Neelesh",
+		"emp_City" : "Lucknow",
+		"emp_State" : "UP",
+		"emp_contact" : 9044171072,
+		"emp_salary" : 50000,
+		"manager_id" : 5
+	},
+	{
+		"emp_id" : 2,
+		"emp_Name" : "Mayank",
+		"emp_City" : "Delhi",
+		"emp_State" : "Delhi",
+		"emp_contact" : 9876542341,
+		"emp_salary" : 40000,
+		"manager_id" : 5
+	},
+	{
+		"emp_id" : 3,
+		"emp_Name" : "Farzana",
+		"emp_City" : "Mumbai",
+		"emp_State" : "Maharashtra",
+		"emp_contact" : 8765302011,
+		"emp_salary" : 70000,
+		"manager_id" : null
+	},
+	{
+		"emp_id" : 5,
+		"emp_Name" : "Rahul",
+		"emp_City" : "Dehradoon",
+		"emp_State" : "UK",
+		"emp_contact" : 9876543210,
+		"emp_salary" : 25000,
+		"manager_id" : 3
+	}
+]

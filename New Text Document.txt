@@ -1,0 +1,27 @@
+https://www.edureka.co/blog/sql-joins-types
+https://www.sciencedirect.com/topics/computer-science/join-operation
+https://sqlzoo.net/wiki/SQL_Tutorial
+https://www.tutorialsteacher.com/sqlserver/tables-relations
+https://www.geeksforgeeks.org/different-types-of-mysql-triggers-with-examples/
+https://www.geeksforgeeks.org/sql-indexes/
+https://dev.to/jakewitcher/using-env-files-for-environment-variables-in-python-applications-55a1
+https://www.youtube.com/watch?v=CA4DfaVxMO8
+https://dev.mysql.com/doc/workbench/en/wb-admin-export-import.html
+https://chartio.com/resources/tutorials/importing-from-and-exporting-to-files-using-the-mysql-command-line/
+https://hevodata.com/learn/mysql-export-to-csv/
+https://www.javatpoint.com/mysql-export-and-import-database
+
+ER Modeling. class diag, object diag
+USE Employee;
+SHOW Tables;
+SELECT * FROM Employees;
+SELECT * FROM department;
+SHOW VARIABLES LIKE "secure_file_priv"
+
+SELECT emp_id,emp_name,job_name,salary,commission,dep_id,hire_date
+FROM Employees
+SELECT * FROM Employee.Employees
+INTO OUTFILE '/home/user/Mysql/Mysql/Mysql_EXPIMP/Employee.csv'
+FIELDS TERMINATED BY ','
+ENCLOSED BY '"'
+LINES TERMINATED BY '\n';
